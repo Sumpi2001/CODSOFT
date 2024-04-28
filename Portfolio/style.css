@@ -1,0 +1,253 @@
+*{
+    margin:0; padding:0;
+    box-sizing:border-box;
+    font-family: inherit;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding:35px;
+    color: beige;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 850px;
+    z-index:100;
+}
+.logo{
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 30px;
+}
+.nav_bar{
+    margin-right: 50px;
+}
+.nav_bar a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid #ee5377;
+    color: #ee5377;
+}
+.home{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 0 12%;
+    justify-content: space-between;
+}
+.home img{
+    height: auto;
+    width: 370px;
+    border-radius: 5%;
+    background-size: cover;
+    background-position: center;
+}
+.home_write{
+    max-width: 650px;
+}
+.home_write h1{
+    font-size: 60px;
+}
+.home_write h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.home_write p{
+    font-size: 25px;
+    margin:10px 0 20px;
+}
+.home_write .button{
+    margin-top: 15px;
+}
+.button a{
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    outline:none;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.button a:nth-child(2){
+    background: transparent;
+    color: black;
+}
+.button a:hover{
+    color:#ee5377;
+}
+.about{
+    width: 100%;
+    margin-top: -97px;
+    background-color: darkcyan;
+    padding: 175px 0px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    margin-left: 90px;
+    border-radius: 75%;
+}
+.about_text{
+    width: 550px;
+    margin-left: 90px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+.about_text h3{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about_text h5{
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about_text h5 span{
+    color: gold;
+}
+.about_text p{
+    font-size: 23px;
+}
+.about button{
+    margin-top: 40px;
+    background-color: #ee5377;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    border:2px solid transparent;
+    padding: 10px 29px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about button:hover{
+    background-color: transparent;
+    border: 2px solid #ee5377;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.cont_name{
+    margin-top: 49px;
+    font-size: 49px;
+    text-align: center;
+    justify-content: space-between;
+}
+form{
+    width: 40%;
+    max-width: 600px;
+    margin-top: 150px;
+    margin-right: 450px;
+    align-items: center;
+}
+.in_type{
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: -45px;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 23px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+}
+.contact button{
+    padding: 10px 0;
+    color: black;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 23px;
+    margin-bottom: 30px;
+    color: #131112;
+}
+.sci{
+    position: absolute;
+    bottom: 50px;
+    width: 166px;
+    color: black;
+}
+.sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+.sci a:hover{
+    color: #ee5377;
+}
+.end{
+    position: absolute;
+    color:#131112 ;
+    margin-top: 140px;
+    font-size: 12px;
+}
